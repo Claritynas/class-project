@@ -1,34 +1,39 @@
-html{
+html {
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
     font-size: smaller;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
     font-size: smaller;
     font-family: sans-serif;
-       
-    
-    
+
+
+
+
 }
-a{
+
+a {
     color: unset;
     color: #1f1f1f;
     text-decoration: none !important;
-  
+
 }
-h1{
+
+h1 {
     color: brown;
     text-align: center;
     text-decoration: underline;
 }
 
-h3:hover{
+h3:hover {
     color: orange;
 }
-.heading{
+
+.heading {
 
     background-color: beige;
     display: flex;
@@ -37,1564 +42,1517 @@ h3:hover{
     background-size: cover;
     height: 150px;
     padding-left: 20px;
-    
+
 
 }
-.logo{
-    
-    width: 33.33%;
+
+.logo {
+
+    width: 25%;
     border-radius: 15px;
     padding-left: 20px;
-    
-    
-} 
-.logo-image{
-    width: 30%;
-    padding-top: 10px;
+
+
 }
-.logo-contact{
+
+.logo-image {
+    width: 30%;
+
+    margin-top: 20px;
+}
+.logo-contact1 {
+    width: 70%;
+    display:none;
+}
+.logo-contact {
     width: 70%;
     display: none;
 }
-#logo-image{
+
+#logo-image {
     border-radius: 50%;
     height: 80px;
     width: 80px;
 }
-.sections{
-    width:  33.33% ;
-    padding: 20px;
+
+.sections {
+    width: 25%;
+    padding-top: 20px;
+    text-align: center;
 }
 
 
-.fhome:hover{
-    color: orange;
-}
-.fevent:hover{
-    color: orange;
-}
-
-.fabout:hover{
+.fhome:hover {
     color: orange;
 }
 
-
-.lcontact:hover{
+.fevent:hover {
     color: orange;
 }
-.name{
-    width: 33.33%;
+
+.fabout:hover {
+    color: orange;
+}
+
+
+.lcontact:hover {
+    color: orange;
+}
+
+.name {
+    width: 50%;
     color: brown;
-    align-items: center;
+    text-align: left;
     padding: 20px;
 }
-.banner{
+
+.banner {
     background-image: url(../img/OIP.jpeg);
     background-size: cover;
     height: 400px;
     width: 100%;
 }
+
 /*about section */
 
-.about{
-    margin: 10px;
+.about {
+    margin: 5px;
 }
-.about-image{
+
+.about-image {
     height: 500px;
-    width: 100%;
+
+
+
     text-align: center;
-    
+
 }
-.about-content{
+
+.about-content {
     height: 300px;
-    
+
     margin-top: 2px;
     text-align: left;
 
 }
+
 /*opportunities sections*/
-.opp-s{
+.opportunities {
+    margin-top: 20px;
+
+}
+
+.opp-s {
     display: flex;
-    background-color:beige;
+    background-color: beige;
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 20px;
     padding: 8px;
     border-radius: 15px;
-    
+
 }
-.opp-type{
-    
+
+.opp-type {
+
     width: 50%;
     text-align: center;
     text-transform: capitalize;
-    
+
 }
-.opp-type:hover{
+
+.opp-type:hover {
     color: orange;
-    
+
 }
-.opp-apply{
-    
+
+.opp-apply {
+
     width: 50%;
     text-align: center;
 }
+
 /*leaders section*/
-td,th{
+td,
+th {
     border: 1px solid black;
     align-items: center;
     text-align: center;
 }
-.leaders{
+
+.leaders {
     align-items: center;
-    
-   
-    width: 100%;
-    margin:10px ;
-    
-    
-    
-}
-table{
-    border: 1px solid black;
-    border-collapse: collapse;
-    
-
-}
-.leader-image{
-    background-color: beige;
-    
-}
-.l-image{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    
-}
-/*Events Section */
-.Ev{
-    background-color: beige;
-}
-.events{
-    display: flex;
-    padding: 10px;
-    
-    
-    
-}
-.event{
-    width: 50%;
-    text-align: left;
-}
-.date{
-    width: 50%;
-    text-align: left;
-}
-/* footer section */
-.footer{
-    background-color: gray;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin: 0px;
-    display: flex;
-    margin-top: 10px;
-    
-    
-}
-.all{
-    width: 33.33%;
-    padding-left: 5px;
-    
-
-
-}
-.copyright{
-    
-    align-items: center;
-    
-}
-
-.location{
-    width: 33.33%;
-
-
-    
-}
-.contact{
-    width: 33.33%;
-    text-align: left;
-}
-.fcontact{
-    display: flex;
-    padding-top: 12px;
-
-    
-
-}
-.fcontact-name{
-    width: 50%;
-    text-align: left;
-    
-    
-    
-}
-.fcontact-logo{
-    width: 50%;
-    text-align: right;
-    margin-left: 30px;   
-    
-}
 
 
 
-
-@media screen and (min-width: 576px ) {
-    html{
-    padding: 0px;
-    margin: 0px;
-    font-family: sans-serif;
-    font-size: small;
-}
-body{
-    margin: 0px;
-    padding: 0px;
-    font-size: small;
-    font-family: sans-serif;
-       
-    
-    
-}
-a{
-    color: unset;
-    color: #1f1f1f;
-    text-decoration: none !important;
-  
-}
-h1{
-    color: brown;
-    text-align: center;
-    text-decoration: underline;
-}
-
-h3:hover{
-    color: orange;
-}
-
-/*header section */
-
-  
-.heading{
-    
-    background-color: beige;
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 150px;
-    
-
-}
-.logo{
-    
-    width: 33.33%;
-    padding-top: 20px;
-    
-} 
-
-#logo-image{
-    border-radius: 50%;
-    
-}
-.sections{
-    width:  33.33% ;
-    
-    
-    
-}
-
-
-.fhome:hover{
-    color: orange;
-}
-
-.fevent:hover{
-    color: orange;
-}
-
-.fabout:hover{
-    color: orange;
-}
-
-.fcontact:hover{
-    color: orange;
-}
-.name{
-    width: 33.33%;
-    color: brown;
-    align-items: center;
-    
-}
-/*banner section */
-.banner{
-    background-image: url(../img/OIP.jpeg);
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-}
-
-/* main section*/
-.main{ 
-    padding: 0px;
-    
-    
-}
-
-.about{
     margin: 10px;
-}
-.about-image{
-    height: 500px;
-    width: 100%;
-    text-align: center;
-    
-}
-.about-content{
-    height: 300px;
-    
-    margin-top: 2px;
-    text-align: left;
+
+
 
 }
-/*opportunities sections*/
-.opp-s{
-    display: flex;
-    background-color:beige;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 8px;
-    border-radius: 15px;
-    
-}
-.opp-type{
-    
-    width: 50%;
-    text-align: center;
-    text-transform: capitalize;
-    
-}
-.opp-type:hover{
-    color: orange;
-    
-}
-.opp-apply{
-    
-    width: 50%;
-    text-align: center;
-}
-/*leaders section*/
-td,th{
-    border: 1px solid black;
-    align-items: center;
-    text-align: center;
-}
-.leaders{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 120px;
-    margin-right: 20px;
-    align-items: center;
-    
-    
-    
-}
-.leaders h1{
-    text-align: center;
-    padding-right: 200px;
-}
-table{
+
+table {
     border: 1px solid black;
     border-collapse: collapse;
-    
+    width: 100%;
+
+
+
 
 }
-.leader-image{
+
+.leader-image {
     background-color: beige;
-    
+
 }
-.l-image{
+
+.l-image {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    
+
 }
+
 /*Events Section */
-.Ev{
+.Ev {
     background-color: beige;
 }
-.events{
+
+.events {
     display: flex;
     padding: 10px;
-    
-    
-    
+
+
+
 }
-.event{
+
+.event {
     width: 50%;
     text-align: left;
 }
-.date{
+
+.date {
     width: 50%;
     text-align: left;
 }
+
 /* footer section */
-.footer{
+.footer {
     background-color: gray;
     padding: 0px;
     margin-bottom: 0px;
     margin: 0px;
     display: flex;
     margin-top: 10px;
-    
-    
+
+
 }
-.all{
+
+.all {
     width: 33.33%;
     padding-left: 5px;
-    
+
 
 
 }
-.copyright{
-    
+
+.copyright {
+
     align-items: center;
-    
+
 }
 
-.location{
+.location {
     width: 33.33%;
 
 
-    
+
 }
-.contact{
+
+.contact {
     width: 33.33%;
-    
+    text-align: left;
 }
-.fcontact{
+
+.fcontact {
     display: flex;
     padding-top: 12px;
-    padding: 10px;
 
-    
+
 
 }
-.fcontact-name{
-    width: 50%;
-    text-align: right;
-    
-    
-    
-}
-.fcontact-logo{
+
+.fcontact-name {
     width: 50%;
     text-align: left;
-    margin-left: 30px;   
-    
+
+
+
+}
+
+.fcontact-logo {
+    width: 50%;
+    text-align: right;
+    margin-left: 30px;
+
 }
 
 
+
+
+@media screen and (min-width: 576px) {
+    html {
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size: small;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-size: small;
+        font-family: sans-serif;
+
+
+
+    }
+
+    a {
+        color: unset;
+        color: #1f1f1f;
+        text-decoration: none !important;
+
+    }
+
+    h1 {
+        color: brown;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    h3:hover {
+        color: orange;
+    }
+
+    /*header section */
+
+
+    .heading {
+
+        background-color: beige;
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 150px;
+        
+        padding-top: 0px;
+        margin-top: 0px;
+
+
+    }
+
+    .logo {
+
+        width: 25%;
+        padding-top: 20px;
+
+    }
+
+    #logo-image {
+        border-radius: 50%;
+        
+
+    }
     
+
+    .sections {
+        width: 25%;
+        text-align: center;
+        padding-top: 0px;
+
+    }
+
+
+    .fhome:hover {
+        color: orange;
+    }
+
+    .fevent:hover {
+        color: orange;
+    }
+
+    .fabout:hover {
+        color: orange;
+    }
+
+    .fcontact:hover {
+        color: orange;
+    }
+
+    .name {
+        width: 50%;
+        color: brown;
+        text-align: left;
+        padding-top: 0px;
+
+    }
     
+    .logo-contact1 {
+        
+        
+        display: block;
+        text-align:left; 
+        
+    }
+    .mail-icon{
+        display: none;
+    }
+
+    /*banner section */
+    .banner {
+        background-image: url(../img/OIP.jpeg);
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    /* main section*/
+    .main {
+        padding: 0px;
+
+
+    }
+
+    .about {
+        margin: 10px;
+    }
+
+    .about-image {
+        height: 500px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .about-content {
+        height: 300px;
+
+        margin-top: 2px;
+        text-align: left;
+
+    }
+
+    /*opportunities sections*/
+    .opportunities {
+        margin-top: 20px;
+
+    }
+
+    .opp-s {
+        display: flex;
+        background-color: beige;
+
+        margin-bottom: 20px;
+        padding: 8px;
+        border-radius: 15px;
+
+
+    }
+
+    .opp-type {
+
+        width: 50%;
+        text-align: center;
+        text-transform: capitalize;
+
+    }
+
+    .opp-type:hover {
+        color: orange;
+
+    }
+
+    .opp-apply {
+
+        width: 50%;
+        text-align: center;
+    }
+
+    /*leaders section*/
+    td,
+    th {
+        border: 1px solid black;
+        align-items: center;
+        text-align: center;
+    }
+
+    .leaders {
+
+        align-items: center;
+
+
+
+    }
+
+    .leaders h1 {
+        text-align: center;
+        padding-right: 0px;
+        margin-top: 20px;
+
+    }
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: 500px;
+
+
+    }
+
+    .leader-image {
+        background-color: beige;
+
+    }
+
+    .l-image {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+
+    }
+
+    /*Events Section */
+    .Ev {
+        background-color: beige;
+    }
+
+    .events {
+        display: flex;
+        padding: 10px;
+
+
+
+    }
+
+    .event {
+        width: 50%;
+        text-align: left;
+    }
+
+    .date {
+        width: 50%;
+        text-align: left;
+    }
+
+    /* footer section */
+    .footer {
+        background-color: gray;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin: 0px;
+        display: flex;
+        margin-top: 10px;
+
+
+    }
+
+    .all {
+        width: 33.33%;
+        padding-left: 5px;
+
+
+
+    }
+
+    .copyright {
+
+        align-items: center;
+
+    }
+
+    .location {
+        width: 33.33%;
+
+
+
+    }
+
+    .contact {
+        width: 33.33%;
+
+    }
+
+    .fcontact {
+        display: flex;
+        padding-top: 12px;
+        padding: 10px;
+
+
+
+    }
+
+    .fcontact-name {
+        width: 50%;
+        text-align: right;
+
+
+
+    }
+
+    .fcontact-logo {
+        width: 50%;
+        text-align: left;
+        margin-left: 30px;
+
+    }
+
+
+
+
 }
 
 /*---------------*/
 
 @media screen and (min-width:768px) {
-    html{
-    padding: 0px;
-    margin: 0px;
-    font-family: sans-serif;
-    font-size: medium;
-}
-body{
-    margin: 0px;
-    padding: 0px;
-    font-size: medium;
-    font-family: sans-serif;
-       
-    
-    
-}
-a{
-    color: unset;
-    color: #1f1f1f;
-    text-decoration: none !important;
-  
-}
-
-h1{
-    color: brown;
-    text-align: center;
-    text-decoration: underline;
-}
-
-h3:hover{
-    color: orange;
-}
-
-/*header section */
-
-  
-.heading{
-    
-    background-color: beige;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    
-
-}
-.logo{
-    
-    width: 33.33%;
-    
-    
-    padding: 8pxpx;
-    
-} 
-
-.logo-contact{
-    padding-top: 10px;
-    padding-left: 8px;
-}
-#logo-image{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-}
-.sections{
-    width:  33.33% ;
-    
-    padding-left: 50px;
-    margin-left: 100px;
-}
-
-
-.fhome:hover{
-    color: orange;
-}
-
-.fevent:hover{
-    color: orange;
-}
-
-.fabout:hover{
-    color: orange;
-}
-
-.fcontact:hover{
-    color: orange;
-}
-.name{
-    width: 33.33%;
-    color: brown;
-    padding: 20px;
-    padding-top: 10px;
-}
-/*banner section */
-.banner{
-    background-image: url(../img/OIP.jpeg);
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-}
-
-/* main section*/
-.main{ 
-    padding: 0px;
-    
-    
-}
-
-/*about section */
-
-.about{
-    margin: 10px;
-}
-.about-image{
-    height: 500px;
-    width: 100%;
-    text-align: center;
-    
-}
-.about-content{
-    height: 400px;
-    
-    margin-top: 8px;
-    text-align: left;
-
-
-}
-/*opportunities sections*/
-.opp-s{
-    display: flex;
-    background-color:beige;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 8px;
-    border-radius: 15px;
-    
-}
-.opp-type{
-    
-    width: 50%;
-    text-align: center;
-    text-transform: capitalize;
-    
-}
-.opp-type:hover{
-    color: orange;
-    
-}
-.opp-apply{
-    
-    width: 50%;
-    text-align: center;
-}
-/*leaders section*/
-td,th{
-    border: 1px solid black;
-    align-items: center;
-    text-align: center;
-}
-.leaders{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 120px;
-    margin-right: 20px;
-    align-items: center;
-    
-    
-    
-}
-.leaders h1{
-    text-align: center;
-    padding-right: 200px;
-}
-table{
-    border: 1px solid black;
-    border-collapse: collapse;
-    
-
-}
-.leader-image{
-    background-color: beige;
-    
-}
-.l-image{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    
-}
-/*Events Section */
-.Ev{
-    background-color: beige;
-}
-.events{
-    display: flex;
-    padding: 10px;
-    
-    
-    
-}
-.event{
-    width: 50%;
-    text-align: left;
-}
-.date{
-    width: 50%;
-    text-align: left;
-}
-/* footer section */
-.footer{
-    background-color: gray;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin: 0px;
-    display: flex;
-    margin-top: 10px;
-    
-    
-}
-.all{
-    width: 33.33%;
-    padding-left: 5px;
-    
-
-
-}
-.copyright{
-    
-    align-items: center;
-    
-}
-
-.location{
-    width: 33.33%;
-
-
-    
-}
-.contact{
-    width: 33.33%;
-    
-}
-.fcontact{
-    display: flex;
-    padding-top: 12px;
-    padding: 10px;
-
-    
-
-}
-.fcontact-name{
-    width: 50%;
-    text-align: right;
-    
-    
-    
-}
-.fcontact-logo{
-    width: 50%;
-    text-align: left;
-    margin-left: 30px;   
-    
-}
-
-    
-}
-
-@media  screen and (min-width:992px) {
-    html{
+    html {
         padding: 0px;
         margin: 0px;
         font-family: sans-serif;
-        font-size: large
+        font-size: medium;
     }
-    body{
+
+    body {
         margin: 0px;
         padding: 0px;
-        font-size: large;
+        font-size: medium;
         font-family: sans-serif;
-           
-        
-        
+
+
+
     }
-    a{
+
+    a {
         color: unset;
         color: #1f1f1f;
         text-decoration: none !important;
-      
+
     }
-    
-    h1{
+
+    h1 {
         color: brown;
         text-align: center;
         text-decoration: underline;
     }
-    
-    h3:hover{
+
+    h3:hover {
         color: orange;
     }
-    
+
     /*header section */
-    
-      
-    .heading{
-        
+
+
+    .heading {
+
         background-color: beige;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 200px;
+        height: 180px;
+        
 
-        
-    
+
     }
-    .logo{
-        display: flex;
-        width: 33.33%;
-        border-radius: 15px;
-        align-items: center;
-        padding: 20px;
-        
-    } 
-    .logo-image{
-        width: 30%;
+
+    .logo {
+
+        width: 25%;
+        padding: 8px;
+
     }
-    .logo-contact{
-        width: 70%;
-    }
-    #logo-image{
-        border-radius: 50%;
-    }
-    .sections{
-        width:  33.33% ;
+
+    .logo-contact {
         padding-top: 10px;
+        padding-left: 8px;
     }
-    
-    
-    .fhome:hover{
+
+    #logo-image {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .sections {
+        width: 25%;
+
+
+    }
+
+
+    .fhome:hover {
         color: orange;
     }
-    
-    .fevent:hover{
+
+    .fevent:hover {
         color: orange;
     }
-    
-    .fabout:hover{
+
+    .fabout:hover {
         color: orange;
     }
-    
-    .fcontact:hover{
+
+    .fcontact:hover {
         color: orange;
     }
-    .name{
-        width: 33.33%;
+
+    .name {
+        width: 50%;
         color: brown;
-        align-items: center;
-        padding: 20px;
+        
+        text-align: left;
     }
+    
+   
     /*banner section */
-    .banner{
+    .banner {
         background-image: url(../img/OIP.jpeg);
         background-size: cover;
-        height: 800px;
+        height: 600px;
         width: 100%;
     }
-    
+
     /* main section*/
-    .main{ 
+    .main {
         padding: 0px;
-        
-        
+
+
     }
-    
+
     /*about section */
-    
-    .about{
-        
-        padding: 15px;
-        margin-top: 20px;
-        
-        margin-bottom: 20px;
-    
+
+    .about {
+        margin: 10px;
         
     }
-    .about-image{
-        
+
+    .about-image {
+        height: 500px;
+        width: 100%;
         text-align: center;
-        
+
     }
-    .about-content{
+
+    .about-content {
         height: 400px;
+
+        margin-top: 8px;
         text-align: left;
-    
+
+
     }
+
     /*opportunities sections*/
-    .opp-s{
+    .opportunities {
+        margin-top: 20px;
+
+    }
+
+    .opp-s {
         display: flex;
-        background-color:beige;
+        background-color: beige;
         margin-top: 20px;
         margin-bottom: 20px;
         padding: 8px;
         border-radius: 15px;
-        
+
     }
-    .opp-type{
-        
+
+    .opp-type {
+
         width: 50%;
         text-align: center;
         text-transform: capitalize;
-        
+
     }
-    .opp-type:hover{
+
+    .opp-type:hover {
         color: orange;
-        
+
     }
-    .opp-apply{
-        
+
+    .opp-apply {
+
         width: 50%;
         text-align: center;
     }
+
     /*leaders section*/
-    td,th{
+    td,
+    th {
         border: 1px solid black;
         align-items: center;
         text-align: center;
     }
-    .leaders{
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-       
-        
 
-        
-        
-        
+    .leaders {
+        margin: 10px;
+        align-items: center;
+
+
+
     }
-    .leaders h1{
-        text-align: center;
-        margin-right: 150px;
-    }
-    table{
+
+    
+
+    table {
         border: 1px solid black;
         border-collapse: collapse;
-        width: 100%;
-        
-        
-        
-    
+
+
+
     }
-    .leader-image{
+
+    .leader-image {
         background-color: beige;
-        
+
     }
-    .l-image{
+
+    .l-image {
         border-radius: 50%;
         height: 100px;
         width: 100px;
-        
+
     }
+
     /*Events Section */
-    .Ev{
+    .Ev {
         background-color: beige;
     }
-    .events{
+
+    .events {
         display: flex;
         padding: 10px;
-        
-        
-        
+
+
+
     }
-    .event{
+
+    .event {
         width: 50%;
         text-align: left;
     }
-    .date{
+
+    .date {
         width: 50%;
         text-align: left;
     }
+
     /* footer section */
-    .footer{
+    .footer {
         background-color: gray;
         padding: 0px;
         margin-bottom: 0px;
         margin: 0px;
         display: flex;
         margin-top: 10px;
-        
-        
+
+
     }
-    .all{
+
+    .all {
         width: 33.33%;
         padding-left: 5px;
-        
-    
-    
+
+
+
     }
-    .copyright{
-        
+
+    .copyright {
+
         align-items: center;
-        
+
     }
-    
-    .location{
+
+    .location {
         width: 33.33%;
-    
-    
-        
+
+
+
     }
-    .contact{
+
+    .contact {
         width: 33.33%;
-        
+
     }
-    .fcontact{
+
+    .fcontact {
         display: flex;
         padding-top: 12px;
         padding: 10px;
-    
-        
-    
+
+
+
     }
-    .fcontact-name{
+
+    .fcontact-name {
         width: 50%;
         text-align: right;
-        
-        
-        
+
+
+
     }
-    .fcontact-logo{
+
+    .fcontact-logo {
         width: 50%;
         text-align: left;
-        margin-left: 30px;   
-        
+        margin-left: 30px;
+
     }
-    
+
+
 }
-@media  screen and (min-width:1200px) {
-    html{
+
+@media screen and (min-width:992px) {
+    html {
         padding: 0px;
         margin: 0px;
         font-family: sans-serif;
         font-size: large
     }
-    body{
+
+    body {
         margin: 0px;
         padding: 0px;
         font-size: large;
         font-family: sans-serif;
-           
-        
-        
+
+
+
     }
-    a{
+
+    a {
         color: unset;
         color: #1f1f1f;
         text-decoration: none !important;
-      
+
     }
-    
-    h1{
+
+    h1 {
         color: brown;
         text-align: center;
         text-decoration: underline;
     }
-    
-    h3:hover{
+
+    h3:hover {
         color: orange;
     }
-    
+
     /*header section */
-    
-      
-    .heading{
-        
+
+
+    .heading {
+
         background-color: beige;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         height: 200px;
-        
-    
+
+
+
+
     }
-    .logo{
+
+    .logo {
+        display: flex;
+        width: 25%;
+        border-radius: 15px;
+        align-items: center;
+        
+
+    }
+
+    .logo-image {
+        width: 30%;
+    }
+
+    .logo-contact {
+        width: 70%;
+    }
+
+    #logo-image {
+        border-radius: 50%;
+    }
+
+    .sections {
+        width: 25%;
+        padding-top: 10px;
+    }
+
+
+    .fhome:hover {
+        color: orange;
+    }
+
+    .fevent:hover {
+        color: orange;
+    }
+
+    .fabout:hover {
+        color: orange;
+    }
+
+    .fcontact:hover {
+        color: orange;
+    }
+
+    .name {
+        width: 50%;
+        color: brown;
+        align-items: start;
+        text-align: left;
+        padding: 20px;
+    }
+    .logo-contact1{
+        text-align: left;
+    }
+    .mail-icon{
+        display: block;
+        float: left;
+        padding-right: 5px;
+        margin-top: 5px;
+    }
+
+    /*banner section */
+    .banner {
+        background-image: url(../img/OIP.jpeg);
+        background-size: cover;
+        height: 800px;
+        width: 100%;
+    }
+
+    /* main section*/
+    .main {
+        padding: 0px;
+
+
+    }
+
+    /*about section */
+
+    .about {
+
+        padding: 15px;
+        margin-top: 20px;
+
+        margin-bottom: 20px;
+
+
+    }
+
+    .about-image {
+
+        text-align: center;
+
+    }
+
+    .about-content {
+        height: 400px;
+        text-align: left;
+
+    }
+
+    /*opportunities sections*/
+    .opportunities {
+        margin-top: 20px;
+
+    }
+
+    .opp-s {
+        display: flex;
+        background-color: beige;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 8px;
+        border-radius: 15px;
+
+    }
+
+    .opp-type {
+
+        width: 50%;
+        text-align: center;
+        text-transform: capitalize;
+
+    }
+
+    .opp-type:hover {
+        color: orange;
+
+    }
+
+    .opp-apply {
+
+        width: 50%;
+        text-align: center;
+    }
+
+    /*leaders section*/
+    td,th {
+        border: 1px solid black;
+        align-items: center;
+        text-align: center;
+    }
+
+    .leaders {
+        
+        margin: 10px;
+    }
+
+    
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .leader-image {
+        background-color: beige;
+
+    }
+
+    .l-image {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+
+    }
+
+    /*Events Section */
+    .Ev {
+        background-color: beige;
+    }
+
+    .events {
+        display: flex;
+        padding: 10px;
+
+
+
+    }
+
+    .event {
+        width: 50%;
+        text-align: left;
+    }
+
+    .date {
+        width: 50%;
+        text-align: left;
+    }
+
+    /* footer section */
+    .footer {
+        background-color: gray;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin: 0px;
+        display: flex;
+        margin-top: 10px;
+
+
+    }
+
+    .all {
+        width: 33.33%;
+        padding-left: 5px;
+
+
+
+    }
+
+    .copyright {
+
+        align-items: center;
+
+    }
+
+    .location {
+        width: 33.33%;
+
+
+
+    }
+
+    .contact {
+        width: 33.33%;
+
+    }
+
+    .fcontact {
+        display: flex;
+        padding-top: 12px;
+        padding: 10px;
+
+
+
+    }
+
+    .fcontact-name {
+        width: 50%;
+        text-align: right;
+
+
+
+    }
+
+    .fcontact-logo {
+        width: 50%;
+        text-align: left;
+        margin-left: 30px;
+
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    html {
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+        font-size: large
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-size: large;
+        font-family: sans-serif;
+
+
+
+    }
+
+    a {
+        color: unset;
+        color: #1f1f1f;
+        text-decoration: none !important;
+
+    }
+
+    h1 {
+        color: brown;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    h3:hover {
+        color: orange;
+    }
+
+    /*header section */
+
+
+    .heading {
+
+        background-color: beige;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 170px;
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    .logo {
         display: flex;
         width: 33.33%;
         border-radius: 15px;
         align-items: center;
-        padding: 20px;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        padding-left: 5px;
         
-    } 
-    .logo-image{
+
+    }
+
+    .logo-image {
         width: 30%;
     }
-    .logo-contact{
+
+    .logo-contact {
         width: 70%;
         display: block;
+        text-align: left;
+
     }
-    #logo-image{
+
+    #logo-image {
         border-radius: 50%;
     }
-    .sections{
-        width:  33.33% ;
+.mail{
+    display: none;
+}
+
+    .sections {
+        width: 33.33%;
         display: flex;
         padding-top: 30px;
     }
-    
-    .fhome{
+
+    .fhome {
         width: 25%;
     }
-    .fhome:hover{
+
+    .fhome:hover {
         color: orange;
     }
-    .fevent{
+
+    .fevent {
         width: 25%;
     }
-    .fevent:hover{
+
+    .fevent:hover {
         color: orange;
     }
-    .fabout{
+
+    .fabout {
         width: 25%;
     }
-    .fabout:hover{
+
+    .fabout:hover {
         color: orange;
     }
-    .fcontact{
+
+    .fcontact {
         width: 25%;
     }
-    .fcontact:hover{
+
+    .fcontact:hover {
         color: orange;
     }
-    .name{
+
+    .name {
         width: 33.33%;
         color: brown;
         align-items: center;
         padding: 20px;
     }
+    .logo-contact1{
+        display: none;
+    }
+
+
     /*banner section */
-    .banner{
+    .banner {
         background-image: url(../img/OIP.jpeg);
         background-size: cover;
         height: 800px;
         width: 100%;
     }
-    
+
     /* main section*/
-    .main{ 
+    .main {
         padding: 0px;
-        
-        
+
+
     }
-    
+
     /*about section */
-    
-    .about{
+   
+    .about {
         display: flex;
-        padding: 15px;
-        margin-top: 20px;
-        height: 500px;
-        margin-bottom: 20px;
-    
-        
+       
     }
-    .about-image{
+    .about1{
+       
+       
+       margin-top: 20px;
+       
+       margin-bottom: 15px;
+       
+    }
+
+    .about-image {
         width: 50%;
         text-align: center;
-        
+
     }
-    .about-content{
-        
+
+    .about-content {
+
         width: 50%;
         text-align: left;
-    
+        margin-left: 15px;
+
     }
+
     /*opportunities sections*/
-    .opp-s{
+    .opportunities {
+        margin: 1px;
+
+    }
+
+    .opp-s {
         display: flex;
-        background-color:beige;
-        margin-top: 20px;
+        background-color: beige;
+        
         margin-bottom: 20px;
         padding: 8px;
         border-radius: 15px;
-        
+
     }
-    .opp-type{
-        
+
+    .opp-type {
+
         width: 50%;
         text-align: center;
         text-transform: capitalize;
-        
+
     }
-    .opp-type:hover{
+
+    .opp-type:hover {
         color: orange;
-        
+
     }
-    .opp-apply{
-        
+
+    .opp-apply {
+
         width: 50%;
         text-align: center;
     }
+
     /*leaders section*/
-    td,th{
+    td,
+    th {
         border: 1px solid black;
         align-items: center;
         text-align: center;
     }
-    .leaders{
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 120px;
-        margin-right: 20px;
+
+    .leaders {
+       margin: 20px;
         align-items: center;
         
-        
-        
+
+
+
     }
-    .leaders h1{
+
+    .leaders h1 {
         text-align: center;
-        padding-right: 200px;
+        
     }
-    table{
+
+    table {
         border: 1px solid black;
         border-collapse: collapse;
-        
-    
+        width: 100%;
+
+
     }
-    .leader-image{
+
+    .leader-image {
         background-color: beige;
-        
+
     }
-    .l-image{
+
+    .l-image {
         border-radius: 50%;
         height: 100px;
         width: 100px;
-        
+
     }
+
     /*Events Section */
-    .Ev{
+    .Ev {
         background-color: beige;
     }
-    .events{
+
+    .events {
         display: flex;
         padding: 10px;
-        
-        
-        
+
+
+
     }
-    .event{
+
+    .event {
         width: 50%;
         text-align: left;
     }
-    .date{
+
+    .date {
         width: 50%;
         text-align: left;
     }
+
     /* footer section */
-    .footer{
+    .footer {
         background-color: gray;
         padding: 0px;
         margin-bottom: 0px;
         margin: 0px;
         display: flex;
         margin-top: 10px;
-        
-        
+
+
     }
-    .all{
+
+    .all {
         width: 33.33%;
         padding-left: 5px;
-        
-    
-    
+
+
+
     }
-    .copyright{
-        
+
+    .copyright {
+
         align-items: center;
-        
+
     }
-    
-    .location{
+
+    .location {
         width: 33.33%;
-    
-    
-        
+
+
+
     }
-    .contact{
+
+    .contact {
         width: 33.33%;
-        
+
     }
-    .fcontact{
+
+    .fcontact {
         display: flex;
         padding-top: 12px;
         padding: 10px;
-    
-        
-    
+
+
+
     }
-    .fcontact-name{
+
+    .fcontact-name {
         width: 50%;
         text-align: right;
-        
-        
-        
+
+
+
     }
-    .fcontact-logo{
+
+    .fcontact-logo {
         width: 50%;
         text-align: left;
-        margin-left: 30px;   
-        
+        margin-left: 30px;
+
     }
-    
-}
-/*html{
-    padding: 0px;
-    margin: 0px;
-    font-family: sans-serif;
-    font-size: medium;
-}
-body{
-    margin: 0px;
-    padding: 0px;
-    font-size: medium;
-    font-family: sans-serif;
-       
-    
-    
-}
-a{
-    color: unset;
-    color: #1f1f1f;
-    text-decoration: none !important;
-  
-}
-
-h1{
-    color: brown;
-    text-align: center;
-    text-decoration: underline;
-}
-
-h3:hover{
-    color: orange;
-}
-
-/*header section *
-
-  
-.heading{
-    
-    background-color: beige;
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 150px;
-    
 
 }
-.logo{
-    display: flex;
-    width: 33.33%;
-    border-radius: 15px;
-    align-items: center;
-    padding: 20px;
-    
-} 
-.logo-image{
-    width: 30%;
-}
-.logo-contact{
-    width: 70%;
-}
-#logo-image{
-    border-radius: 50%;
-}
-.sections{
-    width:  33.33% ;
-    display: flex;
-    padding-top: 30px;
-}
 
-.fhome{
-    width: 25%;
-}
-.fhome:hover{
-    color: orange;
-}
-.fevent{
-    width: 25%;
-}
-.fevent:hover{
-    color: orange;
-}
-.fabout{
-    width: 25%;
-}
-.fabout:hover{
-    color: orange;
-}
-.fcontact{
-    width: 25%;
-}
-.fcontact:hover{
-    color: orange;
-}
-.name{
-    width: 33.33%;
-    color: brown;
-    align-items: center;
-    padding: 20px;
-}
-/*banner section *
-.banner{
-    background-image: url(../img/OIP.jpeg);
-    background-size: contain;
-    height: 800px;
-    width: 100%;
-}
-
-/* main section*
-.main{ 
-    padding: 0px;
-    
-    
-}
-/*banner section *
-.banner{
-    display: block;
-    image-rendering: inherit;
-}
-/*about section *
-
-.about{
-    display: flex;
-    padding: 15px;
-    margin-top: 20px;
-    height: 500px;
-    margin-bottom: 20px;
-
-    
-}
-.about-image{
-    width: 50%;
-    text-align: center;
-    
-}
-.about-content{
-    
-    width: 50%;
-    text-align: left;
-
-}
-/*opportunities sections*
-.opp-s{
-    display: flex;
-    background-color:beige;
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    padding: 8px;
-    border-radius: 15px;
-    
-}
-.opp-type{
-    
-    width: 50%;
-    text-align: center;
-    text-transform: capitalize;
-    
-}
-.opp-type:hover{
-    color: orange;
-    
-}
-.opp-apply{
-    
-    width: 50%;
-    text-align: center;
-}
-/*leaders section*
-td,th{
-    border: 1px solid black;
-    align-items: center;
-    text-align: center;
-}
-.leaders{
-    align-items: center;
-    
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    padding-left: 100px;
-    padding-right: 100px;
-    
-}
-table{
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 100%;
-
-}
-.leader-image{
-    background-color: beige;
-}
-.l-image{
-    border-radius: 50%;
-    
-}
-/*Events Section *
-.Ev{
-    background-color: beige;
-}
-.events{
-    display: flex;
-    
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    padding: 8px;
-    
-}
-.event{
-    width: 50%;
-    text-align: center;
-}
-.date{
-    width: 50%;
-    text-align: center;
-}
-
-/* footer section *
-.footer{
-    background-color: gray;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin: 0px;
-    
-    display: flex;
-    
-    
-}
-.all{
-    width: 25%;
-    padding-left: 100px;
-
-
-}
-.copyright{
-    width: 25%;
-    align-items: center;
-    padding: 50px;
-}
-
-.location{
-    width: 25%;
-
-    
-}
-.contact{
-    width: 25%;
-    text-align: left;
-}
-.fcontact{
-    display: flex;
-    padding-top: 12px;
-
-    
-
-}
-.fcontact-name{
-    width: 50%;
-    text-align: left;
-    
-    
-    
-}
-.fcontact-logo{
-    width: 50%;
-    text-align: right;
-    margin-left: 30px;
-    
-    
-    
-}
